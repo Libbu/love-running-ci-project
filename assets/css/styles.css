@@ -40,7 +40,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
 }
 
 /*styling for nav element*/
@@ -55,7 +55,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #252525
+    border-bottom: 1px solid #252525;
 }
 
 /* navbar styles with dropdown toggle*/
@@ -86,6 +86,7 @@ nav {
 
 }
 
+
 /*Main*/
 main {
     background-color: lightblue;
@@ -93,6 +94,8 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+
 
 /*Footer*/
 footer {
@@ -115,12 +118,30 @@ footer {
         display: flex
     }
 
-     #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0 0.5rem;
+    }
+
+    main {
+        margin-top: 83px;
+    }
+
+}
+
+/*media query: laptops and larger for hover links (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+}
 
 }
