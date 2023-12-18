@@ -17,7 +17,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -89,7 +91,7 @@ nav {
 
 /*Main*/
 main {
-    
+
     /*make main element take up any space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -116,24 +118,43 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color:#ffffff;
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 #reasons {
-    width:90%;
-    background-color: pink;
+    width: 90%;
     margin: 20px auto;
-    text-align: center;
 }
 
-#reasons > h2 {
+#reasons h2 {
     font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center
 }
 
-#benefits {
-    text-align: left;
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
+
+#benefits p {
+    padding: 0 20px;
+}
+
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
+#benefits p {
+    padding: 0 20px;
+}
+
+
 /*Footer*/
 #socialmedia-icons {
     text-align: center;
@@ -148,7 +169,7 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
- 
+
 
 /*media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -195,6 +216,6 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-}
+    }
 
 }
