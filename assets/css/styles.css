@@ -144,16 +144,17 @@ main {
 }
 
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
-
-#benefits p {
-    padding: 0 20px;
+#circle-cover-bg {
+   background: url(../images/reasons-image.webp) no-repeat center center/cover;
+   height: 90vw;
+   width: 90vw;
+   margin-bottom: 20px;
 }
-
 
 /*Footer*/
 #socialmedia-icons {
